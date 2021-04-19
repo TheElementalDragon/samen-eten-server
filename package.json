@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-samen-eten-server",
+  "version": "1.0.0",
+  "description": "A server for a school project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "npm",
+    "javascript",
+    "node"
+  ],
+  "author": "Wessel van Gils",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheElementalDragon/samen-eten-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheElementalDragon/samen-eten-server/issues"
+  },
+  "homepage": "https://github.com/TheElementalDragon/samen-eten-server#readme"
+}

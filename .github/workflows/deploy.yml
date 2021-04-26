@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy to Heroku
-        uses: behe/heroku-build@v1
+      - uses: CDNievas/heroku-action@v1.0 
         with:
-          app-name: "${{ secrets.HEROKU_APP_NAME }}"
-          api-key: "${{ secrets.HEROKU_API_KEY }}"
+          heroku_email: "w.vangils2@student.avans.nl"
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: "${{ secrets.HEROKU_APP_NAME }}"
